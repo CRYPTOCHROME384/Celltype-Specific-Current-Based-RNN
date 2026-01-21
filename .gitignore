@@ -1,0 +1,41 @@
+# 忽略 Python 编译文件
+
+__pycache__/
+
+.vscode/
+
+*.pyc
+
+
+
+# 忽略数据集和结果图片
+
+data/
+
+dataset/
+
+results/
+
+*.jpg
+
+*.png
+
+
+
+# 忽略大模型权重文件
+
+*.pth
+
+*.pt
+
+*.ckpt
+
+*.h5
+
+
+
+# 忽略环境变量和系统文件
+
+.env
+
+.DS_Store
