@@ -1,0 +1,217 @@
+2025-06-06 22:20:47.516 [info] [main] Log level: Info
+2025-06-06 22:20:47.516 [info] [main] Validating found git in: "git"
+2025-06-06 22:20:47.516 [info] [main] Using git "2.34.1" from "git"
+2025-06-06 22:20:47.516 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-06 22:20:47.516 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-06 22:20:47.516 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-06-06 22:20:47.516 [info] [Model][openRepository] Opened repository: /root/capsule
+2025-06-06 22:20:47.516 [info] > git config --get commit.template [2ms]
+2025-06-06 22:20:47.516 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-06 22:20:47.516 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-06-06 22:20:47.516 [warning] [Git][getBranch] No such branch: master
+2025-06-06 22:20:47.516 [info] > git status -z -uall [4ms]
+2025-06-06 22:20:47.516 [info] > git rev-parse --show-toplevel [6ms]
+2025-06-06 22:20:47.516 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-06-06 22:20:47.516 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-06-06 22:20:47.516 [warning] [Git][getBranch] No such branch: master
+2025-06-06 22:20:47.516 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-06-06 22:20:47.516 [info] > git rev-parse --show-toplevel [12ms]
+2025-06-06 22:20:47.516 [info] > git config --get commit.template [4ms]
+2025-06-06 22:20:47.516 [info] > git rev-parse --show-toplevel [4ms]
+2025-06-06 22:20:47.516 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-06-06 22:20:47.516 [warning] [Git][getBranch] No such branch: master
+2025-06-06 22:20:47.516 [info] > git status -z -uall [2ms]
+2025-06-06 22:20:47.516 [info] > git rev-parse --show-toplevel [5ms]
+2025-06-06 22:20:47.516 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-06 22:20:47.516 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-06-06 22:20:48.133 [info] > git check-ignore -v -z --stdin [3ms]
+2025-06-06 22:33:56.410 [info] > git config --get commit.template [4ms]
+2025-06-06 22:33:56.410 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-06 22:33:56.410 [warning] [Git][getBranch] No such branch: master
+2025-06-06 22:33:56.417 [info] > git status -z -uall [4ms]
+2025-06-06 22:33:56.418 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-06 22:38:34.208 [info] > git config --get commit.template [3ms]
+2025-06-06 22:38:34.208 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-06 22:38:34.208 [warning] [Git][getBranch] No such branch: master
+2025-06-06 22:38:34.214 [info] > git status -z -uall [3ms]
+2025-06-06 22:38:34.215 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-06 22:42:12.084 [info] > git config --get commit.template [3ms]
+2025-06-06 22:42:12.084 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-06 22:42:12.084 [warning] [Git][getBranch] No such branch: master
+2025-06-06 22:42:12.091 [info] > git status -z -uall [4ms]
+2025-06-06 22:42:12.091 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-06 22:43:29.682 [info] > git config --get commit.template [3ms]
+2025-06-06 22:43:29.683 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-06 22:43:29.683 [warning] [Git][getBranch] No such branch: master
+2025-06-06 22:43:29.689 [info] > git status -z -uall [4ms]
+2025-06-06 22:43:29.690 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [0ms]
+2025-06-06 22:44:17.798 [info] > git config --get commit.template [3ms]
+2025-06-06 22:44:17.799 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-06 22:44:17.799 [warning] [Git][getBranch] No such branch: master
+2025-06-06 22:44:17.805 [info] > git status -z -uall [3ms]
+2025-06-06 22:44:17.806 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-06 22:57:51.323 [info] > git config --get commit.template [4ms]
+2025-06-06 22:57:51.323 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-06 22:57:51.323 [warning] [Git][getBranch] No such branch: master
+2025-06-06 22:57:51.330 [info] > git status -z -uall [4ms]
+2025-06-06 22:57:51.330 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-06 22:57:56.339 [info] > git config --get commit.template [3ms]
+2025-06-06 22:57:56.340 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-06 22:57:56.340 [warning] [Git][getBranch] No such branch: master
+2025-06-06 22:57:56.346 [info] > git status -z -uall [3ms]
+2025-06-06 22:57:56.347 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-06 22:58:01.357 [info] > git config --get commit.template [4ms]
+2025-06-06 22:58:01.357 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-06 22:58:01.357 [warning] [Git][getBranch] No such branch: master
+2025-06-06 22:58:01.363 [info] > git status -z -uall [3ms]
+2025-06-06 22:58:01.364 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-06 23:00:26.459 [info] > git config --get commit.template [3ms]
+2025-06-06 23:00:26.459 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-06 23:00:26.459 [warning] [Git][getBranch] No such branch: master
+2025-06-06 23:00:26.466 [info] > git status -z -uall [4ms]
+2025-06-06 23:00:26.466 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-06 23:00:32.962 [info] > git config --get commit.template [3ms]
+2025-06-06 23:00:32.963 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-06 23:00:32.963 [warning] [Git][getBranch] No such branch: master
+2025-06-06 23:00:32.969 [info] > git status -z -uall [4ms]
+2025-06-06 23:00:32.970 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-06-06 23:03:28.865 [info] > git config --get commit.template [3ms]
+2025-06-06 23:03:28.865 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-06 23:03:28.865 [warning] [Git][getBranch] No such branch: master
+2025-06-06 23:03:28.871 [info] > git status -z -uall [3ms]
+2025-06-06 23:03:28.872 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-06 23:19:12.064 [info] > git config --get commit.template [3ms]
+2025-06-06 23:19:12.064 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2025-06-06 23:19:12.065 [warning] [Git][getBranch] No such branch: master
+2025-06-06 23:19:12.071 [info] > git status -z -uall [4ms]
+2025-06-06 23:19:12.071 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [0ms]
+2025-06-06 23:19:42.699 [info] > git config --get commit.template [4ms]
+2025-06-06 23:19:42.699 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-06 23:19:42.699 [warning] [Git][getBranch] No such branch: master
+2025-06-06 23:19:42.705 [info] > git status -z -uall [3ms]
+2025-06-06 23:19:42.706 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-06 23:26:57.087 [info] > git config --get commit.template [4ms]
+2025-06-06 23:26:57.087 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-06 23:26:57.087 [warning] [Git][getBranch] No such branch: master
+2025-06-06 23:26:57.094 [info] > git status -z -uall [3ms]
+2025-06-06 23:26:57.094 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-06 23:28:06.920 [info] > git config --get commit.template [3ms]
+2025-06-06 23:28:06.921 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-06 23:28:06.921 [warning] [Git][getBranch] No such branch: master
+2025-06-06 23:28:06.927 [info] > git status -z -uall [3ms]
+2025-06-06 23:28:06.927 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-06 23:32:17.589 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-06 23:32:17.589 [warning] [Git][getBranch] No such branch: master
+2025-06-06 23:32:17.589 [info] > git config --get commit.template [5ms]
+2025-06-06 23:32:17.595 [info] > git status -z -uall [3ms]
+2025-06-06 23:32:17.596 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-06 23:36:20.685 [info] > git config --get commit.template [3ms]
+2025-06-06 23:36:20.685 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2025-06-06 23:36:20.686 [warning] [Git][getBranch] No such branch: master
+2025-06-06 23:36:20.692 [info] > git status -z -uall [3ms]
+2025-06-06 23:36:20.693 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-06-06 23:36:25.699 [info] > git config --get commit.template [1ms]
+2025-06-06 23:36:25.703 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-06 23:36:25.703 [warning] [Git][getBranch] No such branch: master
+2025-06-06 23:36:25.709 [info] > git status -z -uall [3ms]
+2025-06-06 23:36:25.709 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-06 23:39:38.205 [info] > git config --get commit.template [3ms]
+2025-06-06 23:39:38.205 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2025-06-06 23:39:38.205 [warning] [Git][getBranch] No such branch: master
+2025-06-06 23:39:38.212 [info] > git status -z -uall [4ms]
+2025-06-06 23:39:38.212 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-06 23:39:51.674 [info] > git config --get commit.template [4ms]
+2025-06-06 23:39:51.675 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-06 23:39:51.675 [warning] [Git][getBranch] No such branch: master
+2025-06-06 23:39:51.681 [info] > git status -z -uall [4ms]
+2025-06-06 23:39:51.681 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-06 23:44:17.593 [info] > git config --get commit.template [3ms]
+2025-06-06 23:44:17.593 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2025-06-06 23:44:17.593 [warning] [Git][getBranch] No such branch: master
+2025-06-06 23:44:17.600 [info] > git status -z -uall [4ms]
+2025-06-06 23:44:17.600 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-06 23:44:50.492 [info] > git config --get commit.template [3ms]
+2025-06-06 23:44:50.493 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-06 23:44:50.493 [warning] [Git][getBranch] No such branch: master
+2025-06-06 23:44:50.499 [info] > git status -z -uall [4ms]
+2025-06-06 23:44:50.499 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-06 23:51:38.073 [info] > git config --get commit.template [1ms]
+2025-06-06 23:51:38.076 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-06 23:51:38.076 [warning] [Git][getBranch] No such branch: master
+2025-06-06 23:51:38.082 [info] > git status -z -uall [3ms]
+2025-06-06 23:51:38.083 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-06 23:52:05.349 [info] > git config --get commit.template [3ms]
+2025-06-06 23:52:05.349 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2025-06-06 23:52:05.350 [warning] [Git][getBranch] No such branch: master
+2025-06-06 23:52:05.355 [info] > git status -z -uall [3ms]
+2025-06-06 23:52:05.356 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-06 23:52:10.363 [info] > git config --get commit.template [3ms]
+2025-06-06 23:52:10.364 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-06 23:52:10.364 [warning] [Git][getBranch] No such branch: master
+2025-06-06 23:52:10.370 [info] > git status -z -uall [3ms]
+2025-06-06 23:52:10.371 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-06 23:52:17.200 [info] > git config --get commit.template [3ms]
+2025-06-06 23:52:17.200 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2025-06-06 23:52:17.200 [warning] [Git][getBranch] No such branch: master
+2025-06-06 23:52:17.206 [info] > git status -z -uall [3ms]
+2025-06-06 23:52:17.208 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-06-06 23:52:29.423 [info] > git config --get commit.template [3ms]
+2025-06-06 23:52:29.423 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-06 23:52:29.423 [warning] [Git][getBranch] No such branch: master
+2025-06-06 23:52:29.430 [info] > git status -z -uall [4ms]
+2025-06-06 23:52:29.431 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-06-06 23:53:51.766 [info] > git config --get commit.template [1ms]
+2025-06-06 23:53:51.770 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-06 23:53:51.770 [warning] [Git][getBranch] No such branch: master
+2025-06-06 23:53:51.776 [info] > git status -z -uall [3ms]
+2025-06-06 23:53:51.777 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-06 23:56:51.753 [info] > git config --get commit.template [4ms]
+2025-06-06 23:56:51.753 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-06 23:56:51.753 [warning] [Git][getBranch] No such branch: master
+2025-06-06 23:56:51.760 [info] > git status -z -uall [4ms]
+2025-06-06 23:56:51.760 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-06 23:58:36.522 [info] > git config --get commit.template [4ms]
+2025-06-06 23:58:36.523 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-06 23:58:36.523 [warning] [Git][getBranch] No such branch: master
+2025-06-06 23:58:36.529 [info] > git status -z -uall [4ms]
+2025-06-06 23:58:36.529 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-06 23:59:22.331 [info] > git config --get commit.template [4ms]
+2025-06-06 23:59:22.331 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-06 23:59:22.331 [warning] [Git][getBranch] No such branch: master
+2025-06-06 23:59:22.337 [info] > git status -z -uall [3ms]
+2025-06-06 23:59:22.338 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-06 23:59:31.739 [info] > git config --get commit.template [3ms]
+2025-06-06 23:59:31.739 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-06 23:59:31.739 [warning] [Git][getBranch] No such branch: master
+2025-06-06 23:59:31.746 [info] > git status -z -uall [4ms]
+2025-06-06 23:59:31.746 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-07 00:17:28.803 [info] > git config --get commit.template [2ms]
+2025-06-07 00:17:28.807 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-07 00:17:28.807 [warning] [Git][getBranch] No such branch: master
+2025-06-07 00:17:28.814 [info] > git status -z -uall [4ms]
+2025-06-07 00:17:28.815 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-07 00:17:33.822 [info] > git config --get commit.template [1ms]
+2025-06-07 00:17:33.827 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-07 00:17:33.827 [warning] [Git][getBranch] No such branch: master
+2025-06-07 00:17:33.834 [info] > git status -z -uall [4ms]
+2025-06-07 00:17:33.834 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-07 00:20:07.439 [info] > git config --get commit.template [4ms]
+2025-06-07 00:20:07.439 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-07 00:20:07.439 [warning] [Git][getBranch] No such branch: master
+2025-06-07 00:20:07.446 [info] > git status -z -uall [4ms]
+2025-06-07 00:20:07.447 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-07 00:22:42.998 [info] > git config --get commit.template [4ms]
+2025-06-07 00:22:42.999 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-07 00:22:42.999 [warning] [Git][getBranch] No such branch: master
+2025-06-07 00:22:43.005 [info] > git status -z -uall [3ms]
+2025-06-07 00:22:43.006 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-07 00:24:28.041 [info] > git config --get commit.template [3ms]
+2025-06-07 00:24:28.041 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-07 00:24:28.041 [warning] [Git][getBranch] No such branch: master
+2025-06-07 00:24:28.047 [info] > git status -z -uall [3ms]
+2025-06-07 00:24:28.048 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-07 00:26:59.384 [info] > git config --get commit.template [4ms]
+2025-06-07 00:26:59.384 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2025-06-07 00:26:59.385 [warning] [Git][getBranch] No such branch: master
+2025-06-07 00:26:59.392 [info] > git status -z -uall [5ms]
+2025-06-07 00:26:59.392 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]

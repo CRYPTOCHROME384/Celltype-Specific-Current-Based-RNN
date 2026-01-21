@@ -1,0 +1,27 @@
+2025-06-06 20:04:00.618 [info] [main] Log level: Info
+2025-06-06 20:04:00.618 [info] [main] Validating found git in: "git"
+2025-06-06 20:04:00.618 [info] [main] Using git "2.34.1" from "git"
+2025-06-06 20:04:00.618 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-06 20:04:00.618 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-06 20:04:00.618 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-06-06 20:04:00.618 [info] [Model][openRepository] Opened repository: /root/capsule
+2025-06-06 20:04:00.618 [info] > git config --get commit.template [2ms]
+2025-06-06 20:04:00.618 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-06 20:04:00.618 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-06-06 20:04:00.618 [warning] [Git][getBranch] No such branch: master
+2025-06-06 20:04:00.618 [info] > git status -z -uall [3ms]
+2025-06-06 20:04:00.618 [info] > git rev-parse --show-toplevel [6ms]
+2025-06-06 20:04:00.618 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-06-06 20:04:00.618 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-06-06 20:04:00.618 [warning] [Git][getBranch] No such branch: master
+2025-06-06 20:04:00.618 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-06-06 20:04:00.618 [info] > git rev-parse --show-toplevel [11ms]
+2025-06-06 20:04:00.618 [info] > git config --get commit.template [3ms]
+2025-06-06 20:04:00.618 [info] > git rev-parse --show-toplevel [3ms]
+2025-06-06 20:04:00.618 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-06 20:04:00.618 [warning] [Git][getBranch] No such branch: master
+2025-06-06 20:04:00.618 [info] > git status -z -uall [2ms]
+2025-06-06 20:04:00.618 [info] > git rev-parse --show-toplevel [4ms]
+2025-06-06 20:04:00.618 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-06 20:04:00.618 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-06-06 20:04:01.247 [info] > git check-ignore -v -z --stdin [4ms]

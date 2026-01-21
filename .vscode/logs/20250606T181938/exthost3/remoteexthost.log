@@ -1,0 +1,196 @@
+2025-06-06 19:00:59.585 [info] Extension host with pid 20709 started
+2025-06-06 19:00:59.585 [error] Error: EEXIST: file already exists, open '/root/capsule/code/.vscode/User/workspaceStorage/47b87c33/vscode.lock'
+2025-06-06 19:00:59.588 [info] Lock '/root/capsule/code/.vscode/User/workspaceStorage/47b87c33/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-06-06 19:00:59.590 [info] Lock '/root/capsule/code/.vscode/User/workspaceStorage/47b87c33/vscode.lock': The lock does not look stale, elapsed: 860 ms, giving up.
+2025-06-06 19:00:59.590 [error] Error: EEXIST: file already exists, open '/root/capsule/code/.vscode/User/workspaceStorage/47b87c33-1/vscode.lock'
+2025-06-06 19:00:59.590 [info] Lock '/root/capsule/code/.vscode/User/workspaceStorage/47b87c33-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-06-06 19:00:59.590 [info] Lock '/root/capsule/code/.vscode/User/workspaceStorage/47b87c33-1/vscode.lock': The lock does not look stale, elapsed: 769 ms, giving up.
+2025-06-06 19:00:59.596 [info] Lock '/root/capsule/code/.vscode/User/workspaceStorage/47b87c33-2/vscode.lock': Lock acquired.
+2025-06-06 19:00:59.660 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2025-06-06 19:00:59.867 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-06 19:00:59.868 [info] ExtensionService#_doActivateExtension reageyao.biosyntax, startup: true, activationEvent: '*'
+2025-06-06 19:00:59.941 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-06 19:00:59.941 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-06 19:01:00.113 [info] Eager extensions activated
+2025-06-06 19:01:00.113 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-06 19:01:00.114 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-06 19:01:00.114 [info] ExtensionService#_doActivateExtension Continue.continue, startup: false, activationEvent: 'onStartupFinished'
+2025-06-06 19:01:00.114 [info] ExtensionService#_doActivateExtension saoudrizwan.claude-dev, startup: false, activationEvent: 'onStartupFinished'
+2025-06-06 19:01:01.917 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-06 19:01:02.914 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2025-06-06 19:01:02.914 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-cell-tags, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2025-06-06 19:01:02.914 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-slideshow, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2025-06-06 19:01:02.955 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-06-06 19:01:03.564 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2025-06-06 19:01:03.632 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-06 19:01:03.632 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-06 19:01:03.632 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-06 19:01:03.787 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-06-06 20:08:04.756 [info] Extension host terminating: renderer disconnected for too long (2)
+2025-06-06 20:08:04.756 [info] Lock '/root/capsule/code/.vscode/User/workspaceStorage/47b87c33-2/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-06-06 20:08:04.810 [error] Canceled: Canceled
+	at new rT (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:31:112694)
+	at py.U (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:31:117304)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:31:114798)
+	at Y0.g (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at mh.O [as value] (/.code-server/code-server-4.95.3-linux-amd64/lib/vscode/extensions/git/dist/main.js:2:961845)
+	at D.B (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at Object.p [as dispose] (/.code-server/code-server-4.95.3-linux-amd64/lib/vscode/extensions/git/dist/main.js:2:983333)
+	at /.code-server/code-server-4.95.3-linux-amd64/lib/vscode/extensions/git/dist/main.js:2:989455
+	at Array.forEach (<anonymous>)
+	at b.dispose (/.code-server/code-server-4.95.3-linux-amd64/lib/vscode/extensions/git/dist/main.js:2:989441)
+	at V1.<anonymous> (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:108:19994)
+	at V1.dispose (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:108:20090)
+	at V1.<anonymous> (/.code-server/code-server-4.95.3-linux-amd64/lib/vscode/extensions/git/dist/main.js:2:964255)
+	at V1.dispose (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:108:20090)
+	at li (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:24:699)
+	at file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:14992
+	at file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:24:1009
+	at Object.dispose (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:7:2146)
+	at V_.eb (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:11919)
+	at file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at V_.$ (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at V_.terminate (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Xi (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:174:15085)
+	at c5.a (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:174:11997)
+	at c5.h (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:30:75745)
+	at Timeout.a (/.vscode/extensions/saoudrizwan.claude-dev-3.17.11-universal/dist/extension.js:953:9428)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7) setContext undefined
+2025-06-06 20:08:04.811 [error] Canceled: Canceled
+	at new rT (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:31:112694)
+	at py.U (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:31:117304)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:31:114798)
+	at Y0.g (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/.code-server/code-server-4.95.3-linux-amd64/lib/vscode/extensions/github/dist/extension.js:2:328633)
+	at /.code-server/code-server-4.95.3-linux-amd64/lib/vscode/extensions/github/dist/extension.js:2:329592
+	at mh.value (/.code-server/code-server-4.95.3-linux-amd64/lib/vscode/extensions/git/dist/main.js:2:1073936)
+	at D.B (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at Object.p [as dispose] (/.code-server/code-server-4.95.3-linux-amd64/lib/vscode/extensions/git/dist/main.js:2:983333)
+	at /.code-server/code-server-4.95.3-linux-amd64/lib/vscode/extensions/git/dist/main.js:2:989455
+	at Array.forEach (<anonymous>)
+	at b.dispose (/.code-server/code-server-4.95.3-linux-amd64/lib/vscode/extensions/git/dist/main.js:2:989441)
+	at V1.<anonymous> (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:108:19994)
+	at V1.dispose (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:108:20090)
+	at V1.<anonymous> (/.code-server/code-server-4.95.3-linux-amd64/lib/vscode/extensions/git/dist/main.js:2:964255)
+	at V1.dispose (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:108:20090)
+	at li (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:24:699)
+	at file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:14992
+	at file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:24:1009
+	at Object.dispose (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:7:2146)
+	at V_.eb (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:11919)
+	at file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at V_.$ (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at V_.terminate (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Xi (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:174:15085)
+	at c5.a (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:174:11997)
+	at c5.h (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:30:75745)
+	at Timeout.a (/.vscode/extensions/saoudrizwan.claude-dev-3.17.11-universal/dist/extension.js:953:9428)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7) setContext undefined
+2025-06-06 20:08:04.811 [error] Canceled: Canceled
+	at new rT (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:31:112694)
+	at py.U (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:31:117304)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:31:114798)
+	at Y0.g (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at $t.set (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:304:165833)
+	at rI.updateContextOfActiveNotebookKernel (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:373:11480)
+	at rI.onDidKernelStatusChange (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:373:13070)
+	at D.B (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at hy.<anonymous> (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:299:2831)
+	at D.B (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at e (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:285:31911)
+	at o_.dispose (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:285:32034)
+	at /.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:183:1926
+	at Array.map (<anonymous>)
+	at vg.dispose (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:183:1917)
+	at Object.the (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:436:3754)
+	at Object.m (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.proxy.js:1:963)
+	at V_.eb (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:11724)
+	at file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at V_.$ (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at V_.terminate (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Xi (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:174:15085)
+	at c5.a (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:174:11997)
+	at c5.h (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:30:75745)
+	at Timeout.a (/.vscode/extensions/saoudrizwan.claude-dev-3.17.11-universal/dist/extension.js:953:9428)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7) setContext undefined
+2025-06-06 20:08:04.811 [error] Canceled: Canceled
+	at new rT (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:31:112694)
+	at py.U (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:31:117304)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:31:114798)
+	at Y0.g (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at $t.set (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:304:165833)
+	at Ab.dispose (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:342:8850)
+	at li (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:24:699)
+	at file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:14992
+	at file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:24:1009
+	at Object.dispose (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:7:2146)
+	at V_.eb (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:11919)
+	at file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at V_.$ (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at V_.terminate (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Xi (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:174:15085)
+	at c5.a (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:174:11997)
+	at c5.h (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:30:75745)
+	at Timeout.a (/.vscode/extensions/saoudrizwan.claude-dev-3.17.11-universal/dist/extension.js:953:9428)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7) setContext undefined
+2025-06-06 20:08:04.812 [error] Error: Channel has been closed
+	at s (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:120:2431)
+	at Object.appendLine (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:120:2570)
+	at t.log (/.vscode/extensions/saoudrizwan.claude-dev-3.17.11-universal/dist/extension.js:960:35763)
+	at Object.jIc (/.vscode/extensions/saoudrizwan.claude-dev-3.17.11-universal/dist/extension.js:4144:1690)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async Promise.all (index 18)
+	at async V_.$ (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:9888)
+2025-06-06 20:08:04.827 [error] Error: Channel has been closed
+	at s (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:120:2431)
+	at Object.appendLine (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:120:2570)
+	at D.logOutputMessage (/.code-server/code-server-4.95.3-linux-amd64/lib/vscode/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:285192)
+	at D.info (/.code-server/code-server-4.95.3-linux-amd64/lib/vscode/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:284925)
+	at ChildProcess.<anonymous> (/.code-server/code-server-4.95.3-linux-amd64/lib/vscode/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:503028)
+	at ChildProcess.emit (node:events:519:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2025-06-06 20:08:04.829 [info] Extension host with pid 20709 exiting with code 0

@@ -1,0 +1,209 @@
+import torch as tch 
+import numpy as np
+
+
+
+
+class LossSparsity:
+    def __init__(self, device):
+        self.device = device
+        self.l1_loss = tch.nn.L1Loss()
+
+    def __call__(self, net):
+        J_rec = net.J_rec
+        total_loss = self.l1_loss(J_rec, tch.zeros(J_rec.shape).to(self.device))
+        return total_loss
+
+class SelectivityLoss:
+    def __init__(self, rates, params_dict):
+        self.dt = params_dict['dt']
+        self.t_min_input = params_dict['t_min_input']
+        self.t_max_input = params_dict['t_max_input']
+        self.t_start = params_dict['t_start']
+        self.t_go = params_dict['t_go']
+        self.ind_delay = int((self.t_max_input- self.t_start)/self.dt)
+        self.ind_sample = int((self.t_min_input - self.t_start)/self.dt)
+        self.ind_go = int((self.t_go - self.t_start)/self.dt)
+        self.d_ind = int(0.6/self.dt)
+        self.compute_factors(rates)
+        self.gram_schmidt(rates)
+        self.cos =  tch.nn.CosineSimilarity(dim=0)
+        self.mode_sample = 0
+        self.mode_delay = 1
+        self.mode_choice = 2
+        #self.mode_go = 3
+        #self.mode_ramp = 4
+        self.alpha_delay = 1.5
+        
+    def __call__(self, net):
+        #sample vectors
+        net_sample_alm = net.decoder_alm[self.mode_sample,:]
+        #delay vectors
+        net_delay_alm = net.decoder_alm[self.mode_delay,:]
+        #choice vectors
+        net_choice_alm = net.decoder_alm[self.mode_choice,:]
+        #go vectors
+        #net_go_alm = net.decoder_alm[self.mode_go,:]
+        #go vectors
+        #net_ramp_alm = net.decoder_alm[self.mode_ramp,:]
+
+        #losses
+        loss_sample = (1 - self.cos(net_sample_alm, self.sample_alm))
+        loss_delay = (1 - self.cos(net_delay_alm, self.delay_alm))
+        loss_choice = (1 - self.cos(net_choice_alm, self.choice_alm))
+        #loss_go = (1 - self.cos(net_go_alm, self.go_alm))
+        #loss_ramp = (1 - self.cos(net_ramp_alm, self.ramping_alm))
+
+        #total_loss = (loss_sample + self.alpha_delay * loss_delay + loss_choice +  loss_go + loss_ramp)/5.
+        total_loss = (loss_sample + self.alpha_delay * loss_delay + loss_choice )/3.
+        #total_loss = (loss_sample + self.alpha_delay * loss_delay)/3.
+        return total_loss
+
+    def compute_factors(self, rates):
+        self._sample_vectors(rates)
+        self._delay_vectors(rates)
+        self._choice_vectors(rates)
+        #self._go_vectors(rates)
+        #self._ramping_vectors(rates)
+
+    def gram_schmidt(self, rates):
+        self._sample_vectors(rates)
+        self._delay_vectors(rates)
+        self._choice_vectors(rates)
+        self._go_vectors(rates)
+        self._ramping_vectors(rates)
+        vectors = [self.sample_alm, self.delay_alm, self.choice_alm, self.go_alm, self.ramping_alm]
+        orthogonal_vectors = []
+        for v in vectors:
+            u = v.clone()
+            for w in orthogonal_vectors:
+                u -= tch.dot(u, w) / tch.dot(w, w) * w
+            orthogonal_vectors.append(u)
+        self.sample_alm = orthogonal_vectors[0]
+        self.delay_alm = orthogonal_vectors[1]
+        self.choice_alm = orthogonal_vectors[2]
+        self.go_alm = orthogonal_vectors[3]
+        self.ramping_alm = orthogonal_vectors[4]
+    
+    def _sample_vectors(self, rates):
+        y_alm = rates
+        #calculating latent vectors
+        vec_alm = y_alm[1,:, :] - y_alm[0, :, :]
+        self.sample_alm = tch.mean(vec_alm[self.ind_delay-self.d_ind:self.ind_delay,:], axis=0)
+        #self.sample_alm = tch.mean(vec_alm[self.ind_sample:self.ind_sample+self.d_ind,:], axis=0)
+
+    def _delay_vectors(self, rates):
+        y_alm = rates
+        #calculating latent vectors
+        vec_alm = y_alm[1,:, :] - y_alm[0, :, :]
+        self.delay_alm = tch.mean(vec_alm[self.ind_go-self.d_ind:self.ind_go, :], axis=0)
+    
+    def _choice_vectors(self,rates):
+        y_alm = rates
+        #calculating latent vectors
+        d_ind = int(0.35/self.dt)
+        vec_alm = y_alm[1, :, :] - y_alm[0, :, :]
+        self.choice_alm = tch.mean(vec_alm[self.ind_go:self.ind_go + d_ind, :], axis=0)
+    
+    def _go_vectors(self,rates):
+        d_ind = int(0.1/self.dt) #see inagaki cell
+        y_alm = rates
+        #calculating latent vectors
+        vec_alm = (y_alm[1, :, :] + y_alm[0, :, :])/2.
+        vec_alm_b = vec_alm[self.ind_go-d_ind:self.ind_go, :] 
+        vec_alm_e = vec_alm[self.ind_go:self.ind_go + d_ind, :] 
+        self.go_alm = tch.mean(vec_alm_e - vec_alm_b, axis=0)
+    
+    def _ramping_vectors(self,rates):
+        d_ind = int(0.1/self.dt) #see inagaki cell
+        y_alm = rates
+        #calculating latent vectors
+        vec_alm = (y_alm[1, :, :] + y_alm[0, :, :])/2.
+        vec_alm_b = vec_alm[self.ind_delay:self.ind_delay + d_ind, :] 
+        vec_alm_e = vec_alm[self.ind_go - d_ind:self.ind_go, :] 
+        self.ramping_alm = tch.mean(vec_alm_e - vec_alm_b, axis=0)
+
+
+class LossAverageTrials:
+    def __init__(self):
+        self.alpha = 0.1
+        
+    def __call__(self, av_trials_data, rates_alm):
+        #calculating losses
+        total_loss = tch.mean(tch.square(av_trials_data- rates_alm))
+        return total_loss
+
+class LossAverageTime:
+    def __init__(self, indexes_neurons, params_dict):
+        self.indexes_neurons = indexes_neurons
+        self.t_min_input = params_dict['t_min_input']
+        self.t_max_input = params_dict['t_max_input']
+        self.t_start = params_dict['t_start']
+        self.t_go = params_dict['t_go']
+        self.dt = params_dict['dt']
+
+        self.t_after_go = 0.4
+        t_sample_s = self.t_min_input - self.t_start 
+        t_sample_e = self.t_max_input - self.t_start
+        t_delay_e = self.t_go - self.t_start
+        t_response = self.t_after_go - self.t_start
+
+        self.ind_sample_s =  int(t_sample_s/self.dt)
+        self.ind_sample_e = int(t_sample_e/self.dt)
+        self.ind_delay_e1 = int(t_delay_e/(2 * self.dt))
+        self.ind_delay_e2 = int(t_delay_e/self.dt)
+        self.ind_response = int(t_response/self.dt)
+
+    def __call__(self, av_time_data, rates):
+        # mean spikes across neurons
+        av_time_model = self.compute_time_averages(rates)
+        #calculating losses
+        total_loss = tch.mean(tch.square(av_time_data - av_time_model))
+        return total_loss
+
+    def compute_time_averages(self, rates):
+        average_sample = tch.sum(rates[:, self.ind_sample_s:self.ind_sample_e, self.indexes_neurons], axis = 1) * (self.dt/0.65) #spikes per s
+        average_delay1 = tch.sum(rates[:, self.ind_sample_e:self.ind_delay_e1, self.indexes_neurons], axis = 1) * (self.dt/.6) #spikes per s
+        average_delay2 = tch.sum(rates[:, self.ind_delay_e1:self.ind_delay_e2, self.indexes_neurons], axis = 1) * (self.dt/.6) #spikes per s
+        average_response = tch.sum(rates[:, self.ind_delay_e2:self.ind_response, self.indexes_neurons], axis = 1) * (self.dt/self.t_after_go) #spikes per s
+        av_time_model = tch.stack((average_sample, average_delay1, average_delay2, average_response)) #condition, trials, neurons
+        return av_time_model
+
+class LossAllSpikes:
+    def __init__(self, indexes_neurons):
+        self.indexes_neurons = indexes_neurons
+
+    def __call__(self, spikes, rates):
+        # mean spikes across neurons
+        total_loss = tch.mean(tch.square(spikes- rates))
+        return total_loss
+    
+
+
+class LossAverageNeurons:
+    def __init__(self, indexes_neurons):
+        self.indexes_neurons = indexes_neurons
+
+    def __call__(self, av_neurons_data, rates):
+        # mean spikes across neurons
+        av_neurons_model = self.compute_average_neurons(rates)
+        total_loss = tch.mean(tch.square(av_neurons_data - av_neurons_model))
+        return total_loss
+    
+    def compute_average_neurons(self, rates):
+        av_neurons_model = tch.mean(rates[:,:, self.indexes_neurons], axis = 2)#spikes per s
+        return av_neurons_model
+
+class LossOrthogonality:
+    def __init__(self, device):
+        self.device = device
+        
+    def __call__(self, cov_matrix):
+        cov_alm = cov_matrix['cov_alm']
+        eye_alm = tch.eye(cov_alm.shape[0]).to(self.device).float()
+        total_loss = tch.mean(tch.square(cov_alm - eye_alm))
+        return total_loss
+
+
+
+

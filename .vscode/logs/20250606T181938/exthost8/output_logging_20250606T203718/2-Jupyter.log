@@ -1,0 +1,22 @@
+code-server (1.95.3, codeocean.allenneuraldynamics.org, server-distro)
+Jupyter Extension Version: 2024.10.0.
+Python Extension Version: 2025.4.0.
+Pylance Extension not installed.
+Platform: linux (x64).
+Temp Storage folder ~/capsule/code/.vscode/User/globalStorage/ms-toolsai.jupyter/version-2024.10.0
+Workspace folder ~/capsule, Home = /root
+20:37:21.549 [info] Starting Kernel (Python Path: /opt/conda/bin/python, Conda, 3.12.4) for '~/capsule/code/testing_code_training.ipynb' (disableUI=true)
+20:37:24.271 [info] Process Execution: /opt/conda/bin/python -m pip list
+20:37:24.282 [info] Process Execution: /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+20:37:24.285 [info] Process Execution: /opt/conda/bin/python -m ipykernel_launcher --f=/~/.local/share/jupyter/runtime/kernel-v3e0b52f5295be9d382c0addc41b09f38ddad25355.json
+    > cwd: //~/capsule/code
+20:37:24.764 [info] Kernel successfully started
+20:37:24.771 [info] Process Execution: /opt/conda/bin/python /.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/pythonFiles/printJupyterDataDir.py
+20:43:15.172 [info] Dispose Kernel '~/capsule/code/testing_code_training.ipynb' associated with '~/capsule/code/testing_code_training.ipynb'
+20:43:15.197 [warn] Failed to delete connection file file:///~/.local/share/jupyter/runtime/kernel-v3e0b52f5295be9d382c0addc41b09f38ddad25355.json for pid 31025 [Canceled (FileSystemError): Canceled
+	at Qi.e (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.stat (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:7007)
+	at async Bc.delete (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:239:15448)
+	at async /.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:303:469] {
+  code: 'Unknown'
+}

@@ -1,0 +1,5 @@
+[OK] trials saved -> /allen/aind/scratch/jingyi/2p/kd95/trials_20220823_205730.0.npz
+     C_keep=116, T_keep=582, N_trials_total=175
+     left_correct: n_trials=50
+     right_correct: n_trials=55
+     copied reward_trace from stage1: shape=(10, 582)

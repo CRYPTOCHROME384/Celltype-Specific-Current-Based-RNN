@@ -1,0 +1,393 @@
+code-server (1.95.3, codeocean.allenneuraldynamics.org, server-distro)
+Jupyter Extension Version: 2024.10.0.
+Python Extension Version: 2025.0.0.
+Pylance Extension not installed.
+Platform: linux (x64).
+Temp Storage folder ~/capsule/code/.vscode/User/globalStorage/ms-toolsai.jupyter/version-2024.10.0
+Workspace folder ~/capsule, Home = /root
+17:24:49.950 [info] Starting Kernel (Python Path: /opt/conda/bin/python, Conda, 3.12.4) for '~/capsule/code/testing_code_training.ipynb' (disableUI=false)
+17:24:51.599 [info] Process Execution: /opt/conda/bin/python -m pip list
+17:24:51.609 [info] Process Execution: /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+17:24:51.616 [info] Process Execution: /opt/conda/bin/python -m ipykernel_launcher --f=/~/.local/share/jupyter/runtime/kernel-v33a12f0e8fe9691f07cdace5f4e1f0890b35e397f.json
+    > cwd: //~/capsule/code
+17:24:51.623 [warn] Stderr output when getting ipykernel version & path Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    ModuleNotFoundError: No module named 'ipykernel' for /opt/conda/bin/python
+17:24:51.635 [error] Disposing kernel process due to an error Error: The kernel died. Error: /opt/conda/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher
+    > Interpreter Id = /opt/conda/bin/python
+    > at ChildProcess.<anonymous> (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:299:44541)
+    > stdErr = /opt/conda/bin/python: No module named ipykernel_launcher
+17:24:51.637 [error] Failed to connect raw kernel session: Error: The kernel died. Error: /opt/conda/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+17:24:51.637 [error] Failed to connect raw kernel session: Error: The kernel died. Error: /opt/conda/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+17:24:51.638 [warn] Failed to shutdown kernel, .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher [TypeError: Cannot read properties of undefined (reading 'dispose')
+	at U_.shutdown (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:304:13745)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async W_.shutdown (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:304:22578)]
+17:24:51.639 [warn] Error occurred while trying to start the kernel, options.disableUI=false Error: The kernel died. Error: /opt/conda/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher
+    > Interpreter Id = /opt/conda/bin/python
+    > at ChildProcess.<anonymous> (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:299:44541)
+    > stdErr = /opt/conda/bin/python: No module named ipykernel_launcher
+17:24:51.639 [warn] Kernel Error, context = start Error: The kernel died. Error: /opt/conda/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher
+    > Interpreter Id = /opt/conda/bin/python
+    > at ChildProcess.<anonymous> (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:299:44541)
+    > stdErr = /opt/conda/bin/python: No module named ipykernel_launcher
+17:24:51.648 [info] Process Execution: /opt/conda/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+17:24:51.661 [info] Check & install missing Kernel dependencies for /opt/conda/bin/python, ui.disabled=false for resource '~/capsule/code/testing_code_training.ipynb'
+17:24:51.669 [info] Process Execution: /opt/conda/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+17:24:52.196 [info] Process Execution: /conda install -c conda-forge --name base ipykernel -y
+17:25:22.685 [info] Process Execution: /opt/conda/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+17:25:22.866 [info] Dispose Kernel '~/capsule/code/testing_code_training.ipynb' associated with '~/capsule/code/testing_code_training.ipynb'
+17:25:22.875 [info] Process Execution: /opt/conda/bin/python -m pip list
+17:25:22.875 [info] Starting Kernel (Python Path: /opt/conda/bin/python, Conda, 3.12.4) for '~/capsule/code/testing_code_training.ipynb' (disableUI=false)
+17:25:22.885 [info] Process Execution: /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+17:25:22.897 [info] Process Execution: /opt/conda/bin/python -m ipykernel_launcher --f=/~/.local/share/jupyter/runtime/kernel-v36c8563625ffe89a61d2de066c922ed32a56d60da.json
+    > cwd: //~/capsule/code
+17:25:23.563 [info] Kernel successfully started
+17:25:23.581 [warn] Cell completed with errors [iu [Error]: invalid syntax (2375840046.py, line 24)
+	at n.execute (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'SyntaxError',
+  evalue: 'invalid syntax (2375840046.py, line 24)',
+  traceback: [
+    '  \x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[1]\x1B[39m\x1B[32m, line 24\x1B[39m\n' +
+      '\x1B[31m    \x1B[39m\x1B[31mlr=5e-4 c_av = 0.7, c_orth = 500, c_sel = 0.5, test_every = 50,  optimize_every = 1\x1B[39m\n' +
+      '            ^\n' +
+      '\x1B[31mSyntaxError\x1B[39m\x1B[31m:\x1B[39m invalid syntax\n'
+  ]
+}
+17:27:38.022 [warn] Cell completed with errors [iu [Error]: name 'mean_licks_inputs' is not defined
+	at n.execute (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'NameError',
+  evalue: "name 'mean_licks_inputs' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[3]\x1B[39m\x1B[32m, line 34\x1B[39m\n' +
+      '\x1B[32m     32\x1B[39m \x1B[38;5;66;03m#loading data  \x1B[39;00m\n' +
+      '\x1B[32m     33\x1B[39m max_time_index = \x1B[32m275\x1B[39m \n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m34\x1B[39m mean_licks = \x1B[43mmean_licks_inputs\x1B[49m(files_list, hemi = hemi, max_time_index = max_time_index) \n' +
+      '\x1B[32m     35\x1B[39m ALM_hemi= load_me_data(files_list, default_parameters, hemi=hemi, max_time_index=max_time_index)\n' +
+      "\x1B[32m     36\x1B[39m trial_average = tch.tensor(ALM_hemi[\x1B[33m'\x1B[39m\x1B[33mrates\x1B[39m\x1B[33m'\x1B[39m][\x1B[32m0\x1B[39m:\x1B[32m2\x1B[39m,:,:], dtype = tch.float32).to(default_parameters[\x1B[33m'\x1B[39m\x1B[33mdevice\x1B[39m\x1B[33m'\x1B[39m]).float()\n",
+    "\x1B[31mNameError\x1B[39m: name 'mean_licks_inputs' is not defined"
+  ]
+}
+17:28:08.946 [warn] Cell completed with errors [iu [Error]: name 'default_parameters' is not defined
+	at n.execute (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'NameError',
+  evalue: "name 'default_parameters' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[4]\x1B[39m\x1B[32m, line 36\x1B[39m\n' +
+      '\x1B[32m     34\x1B[39m max_time_index = \x1B[32m275\x1B[39m \n' +
+      '\x1B[32m     35\x1B[39m mean_licks = mean_licks_inputs(files_list, hemi = hemi, max_time_index = max_time_index) \n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m36\x1B[39m ALM_hemi= load_me_data(files_list, \x1B[43mdefault_parameters\x1B[49m, hemi=hemi, max_time_index=max_time_index)\n' +
+      "\x1B[32m     37\x1B[39m trial_average = tch.tensor(ALM_hemi[\x1B[33m'\x1B[39m\x1B[33mrates\x1B[39m\x1B[33m'\x1B[39m][\x1B[32m0\x1B[39m:\x1B[32m2\x1B[39m,:,:], dtype = tch.float32).to(default_parameters[\x1B[33m'\x1B[39m\x1B[33mdevice\x1B[39m\x1B[33m'\x1B[39m]).float()\n" +
+      "\x1B[32m     38\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33m'\x1B[39m\x1B[33mdimensions\x1B[39m\x1B[33m'\x1B[39m, hemi, trial_average.shape, mean_licks.shape)\n",
+    "\x1B[31mNameError\x1B[39m: name 'default_parameters' is not defined"
+  ]
+}
+17:32:24.266 [warn] Cell completed with errors [iu [Error]: name 'json' is not defined
+	at n.execute (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'NameError',
+  evalue: "name 'json' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[5]\x1B[39m\x1B[32m, line 22\x1B[39m\n' +
+      '\x1B[32m     20\x1B[39m \x1B[38;5;66;03m#loading hiperparameters data\x1B[39;00m\n' +
+      "\x1B[32m     21\x1B[39m \x1B[38;5;28;01mwith\x1B[39;00m \x1B[38;5;28mopen\x1B[39m(\x1B[33m'\x1B[39m\x1B[33mparameters_list.json\x1B[39m\x1B[33m'\x1B[39m) \x1B[38;5;28;01mas\x1B[39;00m f:\n" +
+      '\x1B[32m---> \x1B[39m\x1B[32m22\x1B[39m     default_parameters = \x1B[43mjson\x1B[49m.load(f)\n' +
+      '\x1B[32m     24\x1B[39m n_pop = \x1B[32m12\x1B[39m\n' +
+      "\x1B[32m     25\x1B[39m net = \x1B[38;5;28;01mNone\x1B[39;00m\x1B[38;5;66;03m#'net_ALM_hemi_right8.pth'\x1B[39;00m\n",
+    "\x1B[31mNameError\x1B[39m: name 'json' is not defined"
+  ]
+}
+17:35:41.699 [warn] Cell completed with errors [iu [Error]: name 'plt' is not defined
+	at n.execute (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'NameError',
+  evalue: "name 'plt' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[14]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      "\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[43mplt\x1B[49m.plot(data_bh[\x1B[33m'\x1B[39m\x1B[33mrates_left_licks\x1B[39m\x1B[33m'\x1B[39m][\x1B[32m0\x1B[39m,:])\n",
+    "\x1B[31mNameError\x1B[39m: name 'plt' is not defined"
+  ]
+}
+17:42:27.641 [info] Restart requested ~/capsule/code/testing_code_training.ipynb
+17:42:29.270 [info] Process Execution: /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+17:42:29.276 [info] Process Execution: /opt/conda/bin/python -m ipykernel_launcher --f=/~/.local/share/jupyter/runtime/kernel-v3e8cccb146991756b71077b10447848b5788fcc80.json
+    > cwd: //~/capsule/code
+17:42:29.755 [info] Restarted 1db22c65-d449-4a20-88cf-8b11219c7648
+17:42:37.704 [info] Restart requested ~/capsule/code/testing_code_training.ipynb
+17:42:37.721 [info] Process Execution: /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+17:42:37.736 [info] Process Execution: /opt/conda/bin/python -m ipykernel_launcher --f=/~/.local/share/jupyter/runtime/kernel-v35bdc0f54097d3d28e3e697163a25ff786324ffb4.json
+    > cwd: //~/capsule/code
+17:42:38.191 [info] Restarted 1db22c65-d449-4a20-88cf-8b11219c7648
+17:43:28.086 [warn] Cell completed with errors [iu [Error]: name 'list_sessions' is not defined
+	at n.execute (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'NameError',
+  evalue: "name 'list_sessions' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[2]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      "\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m licks = licks_inputs(\x1B[43mlist_sessions\x1B[49m, hemi = \x1B[33m'\x1B[39m\x1B[33mright\x1B[39m\x1B[33m'\x1B[39m, max_time_index = \x1B[32m350\x1B[39m, ind_start=\x1B[32m50\x1B[39m)\n",
+    "\x1B[31mNameError\x1B[39m: name 'list_sessions' is not defined"
+  ]
+}
+17:44:21.730 [warn] Cell completed with errors [iu [Error]: name 'list_sessions' is not defined
+	at n.execute (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'NameError',
+  evalue: "name 'list_sessions' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[4]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      "\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m licks = licks_inputs(\x1B[43mlist_sessions\x1B[49m, hemi = \x1B[33m'\x1B[39m\x1B[33mright\x1B[39m\x1B[33m'\x1B[39m, max_time_index = \x1B[32m350\x1B[39m, ind_start=\x1B[32m50\x1B[39m)\n",
+    "\x1B[31mNameError\x1B[39m: name 'list_sessions' is not defined"
+  ]
+}
+17:44:35.852 [warn] Cell completed with errors [iu [Error]: name 'm_left_licks' is not defined
+	at n.execute (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'NameError',
+  evalue: "name 'm_left_licks' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[5]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      "\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m licks = \x1B[43mlicks_inputs\x1B[49m\x1B[43m(\x1B[49m\x1B[43mfiles_list\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mhemi\x1B[49m\x1B[43m \x1B[49m\x1B[43m=\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mright\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mmax_time_index\x1B[49m\x1B[43m \x1B[49m\x1B[43m=\x1B[49m\x1B[43m \x1B[49m\x1B[32;43m350\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mind_start\x1B[49m\x1B[43m=\x1B[49m\x1B[32;43m50\x1B[39;49m\x1B[43m)\x1B[49m\n",
+    '\x1B[36mFile \x1B[39m\x1B[32m~/capsule/code/utils.py:47\x1B[39m, in \x1B[36mlicks_inputs\x1B[39m\x1B[34m(list_sessions, hemi, max_time_index, ind_start)\x1B[39m\n' +
+      "\x1B[32m     45\x1B[39m left_licks = data_bh[\x1B[33m'\x1B[39m\x1B[33mrates_left_licks\x1B[39m\x1B[33m'\x1B[39m][:,ind_start:max_time_index + ind_start]\n" +
+      "\x1B[32m     46\x1B[39m right_licks = data_bh[\x1B[33m'\x1B[39m\x1B[33mrates_left_licks\x1B[39m\x1B[33m'\x1B[39m][:,ind_start:max_time_index + ind_start]\n" +
+      '\x1B[32m---> \x1B[39m\x1B[32m47\x1B[39m sess_licks = np.concatenate((\x1B[43mm_left_licks\x1B[49m,right_licks)) \n' +
+      "\x1B[32m     48\x1B[39m sess_licks = tch.tensor(sess_licks, dtype = tch.float32, device = \x1B[33m'\x1B[39m\x1B[33mcuda\x1B[39m\x1B[33m'\x1B[39m)\n" +
+      '\x1B[32m     49\x1B[39m licks_per_session[file] = sess_licks\n',
+    "\x1B[31mNameError\x1B[39m: name 'm_left_licks' is not defined"
+  ]
+}
+17:44:54.753 [info] Restart requested ~/capsule/code/testing_code_training.ipynb
+17:44:54.770 [info] Process Execution: /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+17:44:54.781 [info] Process Execution: /opt/conda/bin/python -m ipykernel_launcher --f=/~/.local/share/jupyter/runtime/kernel-v32aa3df519f1a5b401aa1f9c31df43ca0b9d377ea.json
+    > cwd: //~/capsule/code
+17:44:55.235 [info] Restarted 1db22c65-d449-4a20-88cf-8b11219c7648
+17:45:30.902 [info] Too many pending requests 1 for kernel 2354ece4-eb64-40ae-b96f-16280a8b2f04, waiting for it to be ready.
+17:45:31.122 [info] Too many pending requests 1 for kernel 2354ece4-eb64-40ae-b96f-16280a8b2f04, waiting for it to be ready.
+17:50:19.701 [warn] Cell completed with errors [iu [Error]: name 'data_bh' is not defined
+	at n.execute (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'NameError',
+  evalue: "name 'data_bh' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[11]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[43mdata_bh\x1B[49m.keys()\n',
+    "\x1B[31mNameError\x1B[39m: name 'data_bh' is not defined"
+  ]
+}
+17:52:24.904 [info] Restart requested ~/capsule/code/testing_code_training.ipynb
+17:52:24.918 [info] Process Execution: /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+17:52:24.930 [info] Process Execution: /opt/conda/bin/python -m ipykernel_launcher --f=/~/.local/share/jupyter/runtime/kernel-v360af23b7a7474f8f32627b8dec5f8a5c6cc61176.json
+    > cwd: //~/capsule/code
+17:52:25.385 [info] Restarted 1db22c65-d449-4a20-88cf-8b11219c7648
+17:53:46.840 [info] Restart requested ~/capsule/code/testing_code_training.ipynb
+17:53:48.438 [info] Process Execution: /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+17:53:48.444 [info] Process Execution: /opt/conda/bin/python -m ipykernel_launcher --f=/~/.local/share/jupyter/runtime/kernel-v395e0db9da2b89076164c9cb2ecddae26f607bfe4.json
+    > cwd: //~/capsule/code
+17:53:48.932 [info] Restarted 1db22c65-d449-4a20-88cf-8b11219c7648
+17:54:03.000 [warn] Cell completed with errors [iu [Error]: index 307 is out of bounds for axis 0 with size 307
+	at n.execute (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'IndexError',
+  evalue: 'index 307 is out of bounds for axis 0 with size 307',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mIndexError\x1B[39m                                Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[2]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m licks = \x1B[43mlicks_inputs\x1B[49m\x1B[43m(\x1B[49m\x1B[43mfiles_list\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mmax_time_index\x1B[49m\x1B[43m \x1B[49m\x1B[43m=\x1B[49m\x1B[43m \x1B[49m\x1B[32;43m350\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mind_start\x1B[49m\x1B[43m=\x1B[49m\x1B[32;43m50\x1B[39;49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/capsule/code/utils.py:46\x1B[39m, in \x1B[36mlicks_inputs\x1B[39m\x1B[34m(list_sessions, max_time_index, ind_start)\x1B[39m\n' +
+      "\x1B[32m     44\x1B[39m data_bh = pickle.load(\x1B[38;5;28mopen\x1B[39m(path_dandi+ file.rstrip(\x1B[33m'\x1B[39m\x1B[33m.p\x1B[39m\x1B[33m'\x1B[39m) + \x1B[33m'\x1B[39m\x1B[33m_behavior.p\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33mrb\x1B[39m\x1B[33m'\x1B[39m))\n" +
+      "\x1B[32m     45\x1B[39m inds_good_trials = data_bh[\x1B[33m'\x1B[39m\x1B[33minds_good_trials\x1B[39m\x1B[33m'\x1B[39m]\n" +
+      "\x1B[32m---> \x1B[39m\x1B[32m46\x1B[39m left_licks = \x1B[43mdata_bh\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mrates_left_licks\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m[\x1B[49m\x1B[43minds_good_trials\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mind_start\x1B[49m\x1B[43m:\x1B[49m\x1B[43mmax_time_index\x1B[49m\x1B[43m \x1B[49m\x1B[43m+\x1B[49m\x1B[43m \x1B[49m\x1B[43mind_start\x1B[49m\x1B[43m]\x1B[49m\n" +
+      "\x1B[32m     47\x1B[39m right_licks = data_bh[\x1B[33m'\x1B[39m\x1B[33mrates_left_licks\x1B[39m\x1B[33m'\x1B[39m][inds_good_trials, ind_start:max_time_index + ind_start]\n" +
+      '\x1B[32m     48\x1B[39m sess_licks = np.concatenate((left_licks,right_licks)) \n',
+    '\x1B[31mIndexError\x1B[39m: index 307 is out of bounds for axis 0 with size 307'
+  ]
+}
+17:55:21.339 [info] Restart requested ~/capsule/code/testing_code_training.ipynb
+17:55:21.355 [info] Process Execution: /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+17:55:21.367 [info] Process Execution: /opt/conda/bin/python -m ipykernel_launcher --f=/~/.local/share/jupyter/runtime/kernel-v370cfad8a67e82d0f730c95a91acd14c1d181f27d.json
+    > cwd: //~/capsule/code
+17:55:21.810 [info] Restarted 1db22c65-d449-4a20-88cf-8b11219c7648
+17:55:35.094 [warn] Cell completed with errors [iu [Error]: index 307 is out of bounds for axis 0 with size 307
+	at n.execute (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'IndexError',
+  evalue: 'index 307 is out of bounds for axis 0 with size 307',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mIndexError\x1B[39m                                Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[2]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m licks = \x1B[43mlicks_inputs\x1B[49m\x1B[43m(\x1B[49m\x1B[43mfiles_list\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mmax_time_index\x1B[49m\x1B[43m \x1B[49m\x1B[43m=\x1B[49m\x1B[43m \x1B[49m\x1B[32;43m350\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mind_start\x1B[49m\x1B[43m=\x1B[49m\x1B[32;43m50\x1B[39;49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/capsule/code/utils.py:47\x1B[39m, in \x1B[36mlicks_inputs\x1B[39m\x1B[34m(list_sessions, max_time_index, ind_start)\x1B[39m\n' +
+      "\x1B[32m     45\x1B[39m inds_good_trials = data_bh[\x1B[33m'\x1B[39m\x1B[33minds_good_trials\x1B[39m\x1B[33m'\x1B[39m]\n" +
+      "\x1B[32m     46\x1B[39m \x1B[38;5;28mprint\x1B[39m(inds_good_trials.shape, data_bh[\x1B[33m'\x1B[39m\x1B[33mrates_left_licks\x1B[39m\x1B[33m'\x1B[39m].shape, data_bh[\x1B[33m'\x1B[39m\x1B[33mrates_left_licks\x1B[39m\x1B[33m'\x1B[39m].shape)\n" +
+      "\x1B[32m---> \x1B[39m\x1B[32m47\x1B[39m left_licks = \x1B[43mdata_bh\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mrates_left_licks\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m[\x1B[49m\x1B[43minds_good_trials\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mind_start\x1B[49m\x1B[43m:\x1B[49m\x1B[43mmax_time_index\x1B[49m\x1B[43m \x1B[49m\x1B[43m+\x1B[49m\x1B[43m \x1B[49m\x1B[43mind_start\x1B[49m\x1B[43m]\x1B[49m\n" +
+      "\x1B[32m     48\x1B[39m right_licks = data_bh[\x1B[33m'\x1B[39m\x1B[33mrates_left_licks\x1B[39m\x1B[33m'\x1B[39m][inds_good_trials, ind_start:max_time_index + ind_start]\n" +
+      '\x1B[32m     49\x1B[39m sess_licks = np.concatenate((left_licks,right_licks)) \n',
+    '\x1B[31mIndexError\x1B[39m: index 307 is out of bounds for axis 0 with size 307'
+  ]
+}
+17:56:40.493 [info] Restart requested ~/capsule/code/testing_code_training.ipynb
+17:56:40.509 [info] Process Execution: /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+17:56:40.520 [info] Process Execution: /opt/conda/bin/python -m ipykernel_launcher --f=/~/.local/share/jupyter/runtime/kernel-v36706108d3f11db6993e50115c88c9fa0e0dac7fe.json
+    > cwd: //~/capsule/code
+17:56:40.974 [info] Restarted 1db22c65-d449-4a20-88cf-8b11219c7648
+17:57:25.575 [info] Disposing request as the cell (-1) was deleted ~/capsule/code/testing_code_training.ipynb
+17:57:25.575 [info] Disposing request as the cell (-1) was deleted ~/capsule/code/testing_code_training.ipynb
+17:57:25.575 [info] Disposing request as the cell (-1) was deleted ~/capsule/code/testing_code_training.ipynb
+17:57:25.575 [info] Disposing request as the cell (-1) was deleted ~/capsule/code/testing_code_training.ipynb
+17:57:25.575 [info] Disposing request as the cell (-1) was deleted ~/capsule/code/testing_code_training.ipynb
+17:57:29.646 [info] Disposing request as the cell (-1) was deleted ~/capsule/code/testing_code_training.ipynb
+17:57:29.646 [info] Disposing request as the cell (-1) was deleted ~/capsule/code/testing_code_training.ipynb
+17:57:29.646 [info] Disposing request as the cell (-1) was deleted ~/capsule/code/testing_code_training.ipynb
+17:57:29.646 [info] Disposing request as the cell (-1) was deleted ~/capsule/code/testing_code_training.ipynb
+17:57:29.646 [info] Disposing request as the cell (-1) was deleted ~/capsule/code/testing_code_training.ipynb
+18:00:00.126 [info] Restart requested ~/capsule/code/testing_code_training.ipynb
+18:00:00.144 [info] Process Execution: /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+18:00:00.155 [info] Process Execution: /opt/conda/bin/python -m ipykernel_launcher --f=/~/.local/share/jupyter/runtime/kernel-v374801bf50b3000d50c7a881e220ee06973b5d093.json
+    > cwd: //~/capsule/code
+18:00:00.621 [info] Restarted 1db22c65-d449-4a20-88cf-8b11219c7648
+18:01:40.007 [info] Restart requested ~/capsule/code/testing_code_training.ipynb
+18:01:40.024 [info] Process Execution: /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+18:01:40.035 [info] Process Execution: /opt/conda/bin/python -m ipykernel_launcher --f=/~/.local/share/jupyter/runtime/kernel-v3dc19ee9a15ac82fc23110a1eca819fcad20e8a60.json
+    > cwd: //~/capsule/code
+18:01:40.494 [info] Restarted 1db22c65-d449-4a20-88cf-8b11219c7648
+18:16:01.052 [warn] Cell completed with errors [iu [Error]: name 'total_trials' is not defined
+	at n.execute (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'NameError',
+  evalue: "name 'total_trials' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[6]\x1B[39m\x1B[32m, line 3\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m     \x1B[38;5;66;03m#loading data    \x1B[39;00m\n' +
+      '\x1B[32m      2\x1B[39m ALM_hemi= load_me_data(files_list, default_parameters, max_time_index=\x1B[32m235\x1B[39m)\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m3\x1B[39m trial_average, trial_types = toch_version_ratates_trial_types(ALM_hemi, default_parameters, \x1B[43mtotal_trials\x1B[49m)\n' +
+      "\x1B[32m      4\x1B[39m default_parameters[\x1B[33m'\x1B[39m\x1B[33mn_latents\x1B[39m\x1B[33m'\x1B[39m] = n_pop\n" +
+      "\x1B[32m      5\x1B[39m default_parameters[\x1B[33m'\x1B[39m\x1B[33mn_neurons\x1B[39m\x1B[33m'\x1B[39m] = ALM_hemi[\x1B[33m'\x1B[39m\x1B[33mrates\x1B[39m\x1B[33m'\x1B[39m].shape[\x1B[32m2\x1B[39m]\n",
+    "\x1B[31mNameError\x1B[39m: name 'total_trials' is not defined"
+  ]
+}
+18:19:05.204 [info] Restart requested ~/capsule/code/testing_code_training.ipynb
+18:19:06.990 [info] Process Execution: /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+18:19:06.998 [info] Process Execution: /opt/conda/bin/python -m ipykernel_launcher --f=/~/.local/share/jupyter/runtime/kernel-v3d9f7089628337afe5ff9240cb4ff7f9e508c8f53.json
+    > cwd: //~/capsule/code
+18:19:07.608 [info] Restarted 1db22c65-d449-4a20-88cf-8b11219c7648
+18:19:56.503 [info] Disposing request as the cell (-1) was deleted ~/capsule/code/testing_code_training.ipynb
+18:26:08.277 [info] Restart requested ~/capsule/code/testing_code_training.ipynb
+18:26:08.297 [info] Process Execution: /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+18:26:08.312 [info] Process Execution: /opt/conda/bin/python -m ipykernel_launcher --f=/~/.local/share/jupyter/runtime/kernel-v3485c423a8c0dc83afd64c3b6981c7c7005351344.json
+    > cwd: //~/capsule/code
+18:26:08.925 [info] Restarted 1db22c65-d449-4a20-88cf-8b11219c7648
+18:26:30.749 [warn] Cell completed with errors [iu [Error]: list indices must be integers or slices, not str
+	at n.execute (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'TypeError',
+  evalue: 'list indices must be integers or slices, not str',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mTypeError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[2]\x1B[39m\x1B[32m, line 4\x1B[39m\n' +
+      '\x1B[32m      2\x1B[39m \x1B[38;5;66;03m#loading data    \x1B[39;00m\n' +
+      '\x1B[32m      3\x1B[39m total_sessions = \x1B[38;5;28mlen\x1B[39m(session_names)\n' +
+      "\x1B[32m----> \x1B[39m\x1B[32m4\x1B[39m trial_indexes = [\x1B[43mALM_hemi\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mindexes\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m[\x1B[49m\x1B[43mname\x1B[49m\x1B[43m]\x1B[49m \x1B[38;5;28;01mfor\x1B[39;00m name \x1B[38;5;129;01min\x1B[39;00m session_names]\n" +
+      '\x1B[32m      5\x1B[39m trial_average, trial_types = toch_version_ratates_trial_types(ALM_hemi, default_parameters, session_names)\n' +
+      "\x1B[32m      6\x1B[39m default_parameters[\x1B[33m'\x1B[39m\x1B[33mn_latents\x1B[39m\x1B[33m'\x1B[39m] = n_pop\n",
+    '\x1B[31mTypeError\x1B[39m: list indices must be integers or slices, not str'
+  ]
+}
+18:28:31.876 [info] Restart requested ~/capsule/code/testing_code_training.ipynb
+18:28:31.895 [info] Process Execution: /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+18:28:31.909 [info] Process Execution: /opt/conda/bin/python -m ipykernel_launcher --f=/~/.local/share/jupyter/runtime/kernel-v33ccbf44e5dadd64a2ca45749158d7a2428051445.json
+    > cwd: //~/capsule/code
+18:28:32.520 [info] Restarted 1db22c65-d449-4a20-88cf-8b11219c7648
+18:30:00.551 [warn] Cell completed with errors [iu [Error]: name 'session_name' is not defined
+	at n.execute (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'NameError',
+  evalue: "name 'session_name' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[3]\x1B[39m\x1B[32m, line 5\x1B[39m\n' +
+      '\x1B[32m      3\x1B[39m total_sessions = \x1B[38;5;28mlen\x1B[39m(session_names)\n' +
+      "\x1B[32m      4\x1B[39m trial_indexes = [ALM_hemi[\x1B[33m'\x1B[39m\x1B[33mindexes\x1B[39m\x1B[33m'\x1B[39m][name] \x1B[38;5;28;01mfor\x1B[39;00m name \x1B[38;5;129;01min\x1B[39;00m session_names]\n" +
+      '\x1B[32m----> \x1B[39m\x1B[32m5\x1B[39m trial_average, trial_types = \x1B[43mtoch_version_ratates_trial_types\x1B[49m\x1B[43m(\x1B[49m\x1B[43mALM_hemi\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdefault_parameters\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43msession_names\x1B[49m\x1B[43m)\x1B[49m\n' +
+      "\x1B[32m      6\x1B[39m default_parameters[\x1B[33m'\x1B[39m\x1B[33mn_latents\x1B[39m\x1B[33m'\x1B[39m] = n_pop\n" +
+      "\x1B[32m      7\x1B[39m default_parameters[\x1B[33m'\x1B[39m\x1B[33mn_neurons\x1B[39m\x1B[33m'\x1B[39m] = ALM_hemi[\x1B[33m'\x1B[39m\x1B[33mrates\x1B[39m\x1B[33m'\x1B[39m].shape[\x1B[32m2\x1B[39m]\n",
+    '\x1B[36mFile \x1B[39m\x1B[32m~/capsule/code/utils.py:158\x1B[39m, in \x1B[36mtoch_version_ratates_trial_types\x1B[39m\x1B[34m(ALM_hemi, default_parameters, session_names)\x1B[39m\n' +
+      '\x1B[32m    156\x1B[39m trial_types = {}\n' +
+      '\x1B[32m    157\x1B[39m \x1B[38;5;28;01mfor\x1B[39;00m ses_name \x1B[38;5;129;01min\x1B[39;00m session_names:\n' +
+      "\x1B[32m--> \x1B[39m\x1B[32m158\x1B[39m     t_types = ALM_hemi[\x1B[33m'\x1B[39m\x1B[33mtrial_types\x1B[39m\x1B[33m'\x1B[39m][\x1B[43msession_name\x1B[49m]\n" +
+      "\x1B[32m    159\x1B[39m     t_types = tch.tensor(trial_types, dtype = tch.float32).to(default_parameters[\x1B[33m'\x1B[39m\x1B[33mdevice\x1B[39m\x1B[33m'\x1B[39m]).float()\n" +
+      '\x1B[32m    160\x1B[39m     trial_types[ses_name] = t_types\n',
+    "\x1B[31mNameError\x1B[39m: name 'session_name' is not defined"
+  ]
+}
+18:30:23.641 [info] Restart requested ~/capsule/code/testing_code_training.ipynb
+18:30:25.397 [info] Process Execution: /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+18:30:25.405 [info] Process Execution: /opt/conda/bin/python -m ipykernel_launcher --f=/~/.local/share/jupyter/runtime/kernel-v3d4be6a209c726217ad50cba65a0a8a9ae2a24812.json
+    > cwd: //~/capsule/code
+18:30:26.013 [info] Restarted 1db22c65-d449-4a20-88cf-8b11219c7648
+18:30:39.610 [warn] Cell completed with errors [iu [Error]: must be real number, not dict
+	at n.execute (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'TypeError',
+  evalue: 'must be real number, not dict',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mTypeError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[2]\x1B[39m\x1B[32m, line 5\x1B[39m\n' +
+      '\x1B[32m      3\x1B[39m total_sessions = \x1B[38;5;28mlen\x1B[39m(session_names)\n' +
+      "\x1B[32m      4\x1B[39m trial_indexes = [ALM_hemi[\x1B[33m'\x1B[39m\x1B[33mindexes\x1B[39m\x1B[33m'\x1B[39m][name] \x1B[38;5;28;01mfor\x1B[39;00m name \x1B[38;5;129;01min\x1B[39;00m session_names]\n" +
+      '\x1B[32m----> \x1B[39m\x1B[32m5\x1B[39m trial_average, trial_types = \x1B[43mtoch_version_ratates_trial_types\x1B[49m\x1B[43m(\x1B[49m\x1B[43mALM_hemi\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdefault_parameters\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43msession_names\x1B[49m\x1B[43m)\x1B[49m\n' +
+      "\x1B[32m      6\x1B[39m default_parameters[\x1B[33m'\x1B[39m\x1B[33mn_latents\x1B[39m\x1B[33m'\x1B[39m] = n_pop\n" +
+      "\x1B[32m      7\x1B[39m default_parameters[\x1B[33m'\x1B[39m\x1B[33mn_neurons\x1B[39m\x1B[33m'\x1B[39m] = ALM_hemi[\x1B[33m'\x1B[39m\x1B[33mrates\x1B[39m\x1B[33m'\x1B[39m].shape[\x1B[32m2\x1B[39m]\n",
+    '\x1B[36mFile \x1B[39m\x1B[32m~/capsule/code/utils.py:159\x1B[39m, in \x1B[36mtoch_version_ratates_trial_types\x1B[39m\x1B[34m(ALM_hemi, default_parameters, session_names)\x1B[39m\n' +
+      '\x1B[32m    157\x1B[39m \x1B[38;5;28;01mfor\x1B[39;00m ses_name \x1B[38;5;129;01min\x1B[39;00m session_names:\n' +
+      "\x1B[32m    158\x1B[39m     t_types = ALM_hemi[\x1B[33m'\x1B[39m\x1B[33mtrial_types\x1B[39m\x1B[33m'\x1B[39m][ses_name]\n" +
+      "\x1B[32m--> \x1B[39m\x1B[32m159\x1B[39m     t_types = \x1B[43mtch\x1B[49m\x1B[43m.\x1B[49m\x1B[43mtensor\x1B[49m\x1B[43m(\x1B[49m\x1B[43mtrial_types\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdtype\x1B[49m\x1B[43m \x1B[49m\x1B[43m=\x1B[49m\x1B[43m \x1B[49m\x1B[43mtch\x1B[49m\x1B[43m.\x1B[49m\x1B[43mfloat32\x1B[49m\x1B[43m)\x1B[49m.to(default_parameters[\x1B[33m'\x1B[39m\x1B[33mdevice\x1B[39m\x1B[33m'\x1B[39m]).float()\n" +
+      '\x1B[32m    160\x1B[39m     trial_types[ses_name] = t_types\n' +
+      '\x1B[32m    161\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m rates, trial_types\n',
+    '\x1B[31mTypeError\x1B[39m: must be real number, not dict'
+  ]
+}
+18:31:07.087 [info] Restart requested ~/capsule/code/testing_code_training.ipynb
+18:31:07.104 [info] Process Execution: /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+18:31:07.116 [info] Process Execution: /opt/conda/bin/python -m ipykernel_launcher --f=/~/.local/share/jupyter/runtime/kernel-v304eb42f4987c5798ff7d042c39e3caf854da436a.json
+    > cwd: //~/capsule/code
+18:31:07.727 [info] Restarted 1db22c65-d449-4a20-88cf-8b11219c7648
+18:36:18.194 [warn] Cell completed with errors [iu [Error]: name 'LossAverageTrials' is not defined
+	at n.execute (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'NameError',
+  evalue: "name 'LossAverageTrials' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[4]\x1B[39m\x1B[32m, line 13\x1B[39m\n' +
+      "\x1B[32m      9\x1B[39m default_parameters[\x1B[33m'\x1B[39m\x1B[33mn_neurons\x1B[39m\x1B[33m'\x1B[39m] = ALM_hemi[\x1B[33m'\x1B[39m\x1B[33mrates\x1B[39m\x1B[33m'\x1B[39m].shape[\x1B[32m2\x1B[39m]\n" +
+      '\x1B[32m     12\x1B[39m \x1B[38;5;66;03m#trial average\x1B[39;00m\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m13\x1B[39m LossTrials = \x1B[43mLossAverageTrials\x1B[49m()\n' +
+      '\x1B[32m     14\x1B[39m losses_trial_av = np.zeros(max_epochs)\n' +
+      '\x1B[32m     15\x1B[39m \x1B[38;5;66;03m#loss on the modes\x1B[39;00m\n',
+    "\x1B[31mNameError\x1B[39m: name 'LossAverageTrials' is not defined"
+  ]
+}
+19:02:30.674 [info] Dispose Kernel '~/capsule/code/testing_code_training.ipynb' associated with '~/capsule/code/testing_code_training.ipynb'
+19:02:30.674 [info] Dispose Kernel '~/capsule/code/testing_code_training.ipynb' associated with '~/capsule/code/testing_code_training.ipynb'
+19:02:30.709 [warn] Failed to delete connection file file:///~/.local/share/jupyter/runtime/kernel-v304eb42f4987c5798ff7d042c39e3caf854da436a.json for pid 4254 [Canceled (FileSystemError): Canceled
+	at Qi.e (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.stat (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:7007)
+	at async Bc.delete (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:239:15448)
+	at async /.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:303:469] {
+  code: 'Unknown'
+}

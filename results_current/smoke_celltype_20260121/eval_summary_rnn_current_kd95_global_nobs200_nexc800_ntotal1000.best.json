@@ -1,0 +1,26 @@
+{
+  "animal": "kd95",
+  "model": "/home/jingyi.xu/code_rnn/results_current/smoke_celltype_20260121/rnn_current_kd95_global_nobs200_nexc800_ntotal1000.best.pt",
+  "registry_dir": "/home/jingyi.xu/ALM/results/registry/kd95",
+  "n_units": 2,
+  "n_exc_virtual": 800,
+  "N_total": 1000,
+  "D_in": 6,
+  "psth_bin_ms": 200.0,
+  "plot_bin_ms": 0.0,
+  "sample_ignore_ms": 50.0,
+  "resp_sec": 2.0,
+  "noise_std": 0.0,
+  "loss_mean": 0.35808220505714417,
+  "loss_median": 0.35808220505714417,
+  "loss_min": 0.3549383878707886,
+  "loss_max": 0.36122602224349976,
+  "plot_strategy": "best_global_topk",
+  "plot_n": 72,
+  "time_zero": "R(go_cue)",
+  "event_lines": {
+    "S": ":",
+    "D": "--",
+    "R": "-"
+  }
+}

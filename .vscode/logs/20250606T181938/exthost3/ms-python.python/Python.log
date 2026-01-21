@@ -1,0 +1,26 @@
+2025-06-06 19:01:03.908 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-06-06 19:01:03.908 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-06-06 19:01:03.908 [warning] Dir "/root/capsule/.pixi/envs" is not watchable (directory does not exist)
+2025-06-06 19:01:03.908 [info] > conda info --json
+2025-06-06 19:01:03.908 [info] > pyenv which python
+2025-06-06 19:01:03.908 [info] cwd: .
+2025-06-06 19:01:03.908 [info] > pyenv which python
+2025-06-06 19:01:03.908 [info] cwd: .
+2025-06-06 19:01:04.108 [info] > python -c "import sys;print(sys.executable)"
+2025-06-06 19:01:04.127 [info] Python interpreter path: /opt/conda/bin/python
+2025-06-06 19:16:57.021 [warning] Shell integration may not be active, environment activated may be overridden by the shell.
+2025-06-06 19:16:57.030 [info] > conda run -p /opt/conda --no-capture-output python /.vscode/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py /.vscode/extensions/ms-python.python-2025.4.0-universal/python_files/printEnvVariables.py
+2025-06-06 19:16:57.030 [info] shell: bash
+2025-06-06 19:16:57.051 [info] > conda run -p /opt/conda --no-capture-output python /.vscode/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py /.vscode/extensions/ms-python.python-2025.4.0-universal/python_files/printEnvVariables.py
+2025-06-06 19:16:57.051 [info] shell: bash
+2025-06-06 19:16:57.061 [info] > conda info --json
+2025-06-06 19:16:57.886 [info] > conda run -p /opt/conda --no-capture-output python /.vscode/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py /.vscode/extensions/ms-python.python-2025.4.0-universal/python_files/printEnvVariables.py
+2025-06-06 19:16:57.886 [info] shell: bash
+2025-06-06 19:16:58.375 [info] Starting Jedi language server for capsule.
+2025-06-06 19:16:59.832 [info] > python /.vscode/extensions/ms-python.python-2025.4.0-universal/python_files/printEnvVariables.py
+2025-06-06 19:16:59.832 [info] shell: other
+2025-06-06 19:16:59.838 [info] Setting environment variable PYTHONUNBUFFERED in collection to 1 {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-06-06 19:16:59.838 [info] Setting environment variable CONDA_ROOT in collection to /opt/conda {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-06-06 19:16:59.838 [info] Setting environment variable NVCC_PREPEND_FLAGS in collection to  -ccbin=/opt/conda/bin/x86_64-conda-linux-gnu-c++ -ccbin=/opt/conda/bin/x86_64-conda-linux-gnu-c++ {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-06-06 19:16:59.838 [info] Setting environment variable PYTHONIOENCODING in collection to utf-8 {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-06-06 19:16:59.838 [info] Setting environment variable NVCC_PREPEND_FLAGS_BACKUP in collection to  -ccbin=/opt/conda/bin/x86_64-conda-linux-gnu-c++ {"applyAtShellIntegration":true,"applyAtProcessCreation":true}

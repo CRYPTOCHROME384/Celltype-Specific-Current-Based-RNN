@@ -1,0 +1,25 @@
+{
+  "animal": "kd95",
+  "model": "/home/jingyi.xu/code_rnn/results_current/20251230/rnn_current_kd95_global_nobs200_nexc800_ntotal1000.pt",
+  "registry_dir": "/home/jingyi.xu/ALM/results/registry/kd95",
+  "n_units": 2,
+  "n_exc_virtual": 800,
+  "N_total": 1000,
+  "D_in": 6,
+  "psth_bin_ms": 200.0,
+  "sample_ignore_ms": 50.0,
+  "resp_sec": 2.0,
+  "noise_std": 0.05,
+  "loss_mean": 0.002014771511312574,
+  "loss_median": 0.002014771511312574,
+  "loss_min": 0.0018746020505204797,
+  "loss_max": 0.0021549409721046686,
+  "plot_strategy": "best_global_topk",
+  "plot_n": 72,
+  "time_zero": "R(go_cue)",
+  "event_lines": {
+    "S": ":",
+    "D": "--",
+    "R": "-"
+  }
+}

@@ -1,0 +1,112 @@
+code-server (1.95.3, codeocean.allenneuraldynamics.org, server-distro)
+Jupyter Extension Version: 2024.10.0.
+Python Extension Version: 2025.0.0.
+Pylance Extension not installed.
+Platform: linux (x64).
+Temp Storage folder ~/capsule/code/.vscode/User/globalStorage/ms-toolsai.jupyter/version-2024.10.0
+Workspace folder ~/capsule, Home = /root
+22:17:23.354 [info] Starting Kernel (Python Path: /opt/conda/bin/python, Conda, 3.12.4) for '~/capsule/code/testing_code_training.ipynb' (disableUI=false)
+22:17:25.038 [info] Process Execution: /opt/conda/bin/python -m pip list
+22:17:25.047 [info] Process Execution: /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+22:17:25.053 [info] Process Execution: /opt/conda/bin/python -m ipykernel_launcher --f=/~/.local/share/jupyter/runtime/kernel-v30cc12b9d3c0697fd5d645c52f722ee7b1af1468d.json
+    > cwd: //~/capsule/code
+22:17:25.060 [warn] Stderr output when getting ipykernel version & path Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    ModuleNotFoundError: No module named 'ipykernel' for /opt/conda/bin/python
+22:17:25.072 [error] Disposing kernel process due to an error Error: The kernel died. Error: /opt/conda/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher
+    > Interpreter Id = /opt/conda/bin/python
+    > at ChildProcess.<anonymous> (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:299:44541)
+    > stdErr = /opt/conda/bin/python: No module named ipykernel_launcher
+22:17:25.074 [error] Failed to connect raw kernel session: Error: The kernel died. Error: /opt/conda/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+22:17:25.074 [error] Failed to connect raw kernel session: Error: The kernel died. Error: /opt/conda/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+22:17:25.075 [warn] Failed to shutdown kernel, .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher [TypeError: Cannot read properties of undefined (reading 'dispose')
+	at U_.shutdown (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:304:13745)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async W_.shutdown (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:304:22578)]
+22:17:25.076 [warn] Error occurred while trying to start the kernel, options.disableUI=false Error: The kernel died. Error: /opt/conda/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher
+    > Interpreter Id = /opt/conda/bin/python
+    > at ChildProcess.<anonymous> (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:299:44541)
+    > stdErr = /opt/conda/bin/python: No module named ipykernel_launcher
+22:17:25.076 [warn] Kernel Error, context = start Error: The kernel died. Error: /opt/conda/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher
+    > Interpreter Id = /opt/conda/bin/python
+    > at ChildProcess.<anonymous> (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:299:44541)
+    > stdErr = /opt/conda/bin/python: No module named ipykernel_launcher
+22:17:25.085 [info] Process Execution: /opt/conda/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+22:17:25.098 [info] Check & install missing Kernel dependencies for /opt/conda/bin/python, ui.disabled=false for resource '~/capsule/code/testing_code_training.ipynb'
+22:17:25.106 [info] Process Execution: /opt/conda/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+22:17:25.633 [info] Process Execution: /conda install -c conda-forge --name base ipykernel -y
+22:17:56.104 [info] Process Execution: /opt/conda/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+22:17:56.285 [info] Dispose Kernel '~/capsule/code/testing_code_training.ipynb' associated with '~/capsule/code/testing_code_training.ipynb'
+22:17:56.295 [info] Process Execution: /opt/conda/bin/python -m pip list
+22:17:56.295 [info] Starting Kernel (Python Path: /opt/conda/bin/python, Conda, 3.12.4) for '~/capsule/code/testing_code_training.ipynb' (disableUI=false)
+22:17:56.305 [info] Process Execution: /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+22:17:56.319 [info] Process Execution: /opt/conda/bin/python -m ipykernel_launcher --f=/~/.local/share/jupyter/runtime/kernel-v34e6ee497435c4069695160bb5ac3b20d199c6f7d.json
+    > cwd: //~/capsule/code
+22:17:56.986 [info] Kernel successfully started
+22:23:44.362 [info] Restart requested ~/capsule/code/testing_code_training.ipynb
+22:23:44.381 [info] Process Execution: /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+22:23:44.394 [info] Process Execution: /opt/conda/bin/python -m ipykernel_launcher --f=/~/.local/share/jupyter/runtime/kernel-v3e76792aa48e1586cbf4f1bad2ea936056b440a87.json
+    > cwd: //~/capsule/code
+22:23:44.841 [info] Restarted 5d988031-898b-4684-9d61-1c0cbfab9b46
+22:24:49.151 [warn] Cell completed with errors [iu [Error]: 'SelectivitySingleTrialLoss' object has no attribute 'proj_data'
+	at n.execute (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'AttributeError',
+  evalue: "'SelectivitySingleTrialLoss' object has no attribute 'proj_data'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mAttributeError\x1B[39m                            Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[4]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[43mListLossesCoding\x1B[49m\x1B[43m[\x1B[49m\x1B[43ms\x1B[49m\x1B[43m]\x1B[49m\x1B[43m.\x1B[49m\x1B[43mproj_data\x1B[49m(single_trials_activity[session_names[s]])\n',
+    "\x1B[31mAttributeError\x1B[39m: 'SelectivitySingleTrialLoss' object has no attribute 'proj_data'"
+  ]
+}
+22:25:46.549 [warn] Cell completed with errors [iu [Error]: too many indices for array: array is 2-dimensional, but 3 were indexed
+	at n.execute (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'IndexError',
+  evalue: 'too many indices for array: array is 2-dimensional, but 3 were indexed',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mIndexError\x1B[39m                                Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[7]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m plt.plot(\x1B[43mproj_delay_data\x1B[49m\x1B[43m.\x1B[49m\x1B[43mdetach\x1B[49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\x1B[43m.\x1B[49m\x1B[43mcpu\x1B[49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\x1B[43m.\x1B[49m\x1B[43mnumpy\x1B[49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\x1B[43m[\x1B[49m\x1B[32;43m0\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m:\x1B[49m\x1B[43m,\x1B[49m\x1B[43m:\x1B[49m\x1B[43m]\x1B[49m)\n',
+    '\x1B[31mIndexError\x1B[39m: too many indices for array: array is 2-dimensional, but 3 were indexed'
+  ]
+}
+22:27:42.345 [warn] Cell completed with errors [iu [Error]: 0
+	at n.execute (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'KeyError',
+  evalue: '0',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[17]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      "\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[43mALM_hemi\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mtrial_types\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m[\x1B[49m\x1B[43ms\x1B[49m\x1B[43m]\x1B[49m\n",
+    '\x1B[31mKeyError\x1B[39m: 0'
+  ]
+}
+22:32:06.642 [warn] Cell completed with errors [iu [Error]: name 'ind_miss' is not defined
+	at n.execute (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'NameError',
+  evalue: "name 'ind_miss' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[31]\x1B[39m\x1B[32m, line 7\x1B[39m\n' +
+      "\x1B[32m      5\x1B[39m plt.plot(proj_delay_data.detach().cpu().numpy()[ind_left,:].T,\x1B[33m'\x1B[39m\x1B[33mr\x1B[39m\x1B[33m'\x1B[39m, alpha = \x1B[32m0.1\x1B[39m)\n" +
+      "\x1B[32m      6\x1B[39m plt.plot(proj_delay_data.detach().cpu().numpy()[ind_right,:].T,\x1B[33m'\x1B[39m\x1B[33mb\x1B[39m\x1B[33m'\x1B[39m, alpha = \x1B[32m0.1\x1B[39m)\n" +
+      "\x1B[32m----> \x1B[39m\x1B[32m7\x1B[39m plt.plot(proj_delay_data.detach().cpu().numpy()[\x1B[43mind_miss\x1B[49m,:].T,\x1B[33m'\x1B[39m\x1B[33mk\x1B[39m\x1B[33m'\x1B[39m, alpha = \x1B[32m1\x1B[39m)\n",
+    "\x1B[31mNameError\x1B[39m: name 'ind_miss' is not defined"
+  ]
+}
+22:34:09.416 [info] Dispose Kernel '~/capsule/code/testing_code_training.ipynb' associated with '~/capsule/code/testing_code_training.ipynb'
+22:34:09.416 [info] Dispose Kernel '~/capsule/code/testing_code_training.ipynb' associated with '~/capsule/code/testing_code_training.ipynb'
+22:34:09.447 [warn] Failed to delete connection file file:///~/.local/share/jupyter/runtime/kernel-v3e76792aa48e1586cbf4f1bad2ea936056b440a87.json for pid 17587 [Canceled (FileSystemError): Canceled
+	at Qi.e (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.stat (file:///.code-server/code-server-4.95.3-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:114:7007)
+	at async Bc.delete (/.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:239:15448)
+	at async /.vscode/extensions/ms-toolsai.jupyter-2024.10.0-universal/dist/extension.node.js:303:469] {
+  code: 'Unknown'
+}
